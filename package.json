@@ -1,0 +1,24 @@
+{
+  "name": "clickup-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for ClickUp API — create/update tasks, lists, comments, and more",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "clickup-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true,
+  "license": "UNLICENSED"
+}
